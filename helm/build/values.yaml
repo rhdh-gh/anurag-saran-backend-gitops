@@ -1,0 +1,15 @@
+app:
+  name: anurag-saran-poi-backend-app
+  namespace: anurag-saran
+  cluster: .apps.rosa-x4jc7.l07n.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-gh/anurag-saran-backend
+  org: rhdh-gh
+  name: anurag-saran-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: anurag-saran/poi-backend-app
+  tag: latest
